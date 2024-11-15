@@ -16,8 +16,6 @@ const HowItWorks = dynamic(() => import("@/components/HowItWorks"), { ssr: false
 const Model = dynamic(() => import("@/components/Model"), { ssr: false });
 
 
-
-
 export default function Home() {
   return (
     <main className="bg-black">
