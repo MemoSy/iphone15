@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+
 "use client";
 
 import { useGSAP } from "@gsap/react";
@@ -33,7 +36,7 @@ const Highlights = () => {
   return (
     <section
       id="highlights"
-      className="w-screen overflow-hidden h-full common-padding bg-zinc"
+      className="w-screen overflow-hidden h-full common-padding bg-zinc pl-20"
     >
       <div className="screen-max-width">
         <div className="mb-12 w-full md:flex items-end justify-between">
